@@ -16,6 +16,7 @@ class ofxGuiValuePlotter : public ofxGuiElement {
 		virtual float getMinHeight() override;
 
 		void setDecimalPlace(int place);
+        void setBuffer(const std::vector<float> input);
 
 		virtual ofAbstractParameter & getParameter() override;
 

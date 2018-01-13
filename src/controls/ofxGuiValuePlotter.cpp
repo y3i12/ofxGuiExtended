@@ -79,6 +79,12 @@ void ofxGuiValuePlotter::setDecimalPlace(int place){
 	decimalPlace = place;
 }
 
+void ofxGuiValuePlotter::setBuffer(const std::vector<float> input){
+    plotSize = input.size();
+    buffer = input;
+    setNeedsRedraw();
+}
+
 void ofxGuiValuePlotter::generateDraw(){
 
 	ofxGuiElement::generateDraw();
