@@ -26,8 +26,10 @@
 #pragma once
 
 
-#include "ofBaseTypes.h"
+#include "ofGraphicsBaseTypes.h"
+#include "ofTypes.h"
 #include "ofPoint.h"
+#include "ofRectangle.h"
 
 
 #include <type_traits>

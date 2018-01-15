@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofConstants.h"
-#include "ofBaseTypes.h"
+#include "ofGraphicsBaseTypes.h"
 #include "ofParameter.h"
 #include "ofTrueTypeFont.h"
 #include "ofBitmapFont.h"
